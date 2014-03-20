@@ -1,31 +1,26 @@
-.target{
+#circ{
 	width:50px;
 	height:50px;
 	background-color:#FFFFFF;
 	position: absolute;
-	left:100px;
-	top:100px;
+	left:90px;
+	top:90px;
 	border-radius:100%;
+	animation:anim2 2s infinite;
+	transition:2s;
+	border:10px solid #2E0854;
 }
 
-.target.begin
+#circ.begin
 {
-	animation: anim2 2s infinite;
+	
 }
 
-.target.end
+#circ.end
 {
-	left:100px;
-	top:250px;
-	animation: anim2 2s infinite;
-}
-
-@keyframes myAnim
-{
-  from {transform: rotate(0deg) }
-  50% {/* possible intermediate positions at any %
-  */}
-  to {transform: rotate(360deg) }
+	left:90px;
+	top:290px;
+	
 }
 
 @keyframes anim2{
@@ -35,6 +30,16 @@
 }
 
 .target:hover{
+	width=100px;
+}
+
+.line{
+	width:30px;
+	height: 175px;
+	background-color:#2E0854;
+	left:110px;
+	top:125px;
+	position:absolute;
 }
 
 .davis_station{
