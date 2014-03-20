@@ -1,0 +1,58 @@
+.target{
+	width:50px;
+	height:50px;
+	background-color:#FFFFFF;
+	position: absolute;
+	left:100px;
+	top:100px;
+	border-radius:100%;
+}
+
+.target.begin
+{
+	animation: anim2 2s infinite;
+}
+
+.target.end
+{
+	left:100px;
+	top:250px;
+	animation: anim2 2s infinite;
+}
+
+@keyframes myAnim
+{
+  from {transform: rotate(0deg) }
+  50% {/* possible intermediate positions at any %
+  */}
+  to {transform: rotate(360deg) }
+}
+
+@keyframes anim2{
+	from {transform:scale(1.0,1.0)}
+	50% {transform:scale(0.8,0.8)}
+	to {transform:scale(1,1)}
+}
+
+.target:hover{
+}
+
+.davis_station{
+	width:100px;
+	height:100px;
+	background-color:#2E0854;
+	position: absolute;
+	left:75px;
+	top:75px;
+	border-radius:100%;
+}
+
+.howard_station{
+	width:100px;
+	height:100px;
+	background-color:#2E0854;
+	position: absolute;
+	left:75px;
+	top:275px;
+	border-radius:100%;
+}
