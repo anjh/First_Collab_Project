@@ -30,34 +30,53 @@
 }
 
 .target:hover{
-	width=100px;
+	
 }
 
 .line{
 	width:30px;
 	height: 175px;
 	background-color:#2E0854;
-	left:110px;
-	top:125px;
 	position:absolute;
 }
 
-.davis_station{
+#davis2howard{
+	left:110px;
+	top:125px;
+}
+
+.station{
 	width:100px;
 	height:100px;
 	background-color:#2E0854;
 	position: absolute;
-	left:75px;
-	top:75px;
 	border-radius:100%;
 }
 
-.howard_station{
-	width:100px;
-	height:100px;
-	background-color:#2E0854;
-	position: absolute;
+.station_text{
+	font-size:30px;
+	font-family:"Arial", arial, sans-serif;
+	color:#2E0854;
+	font-weight:bold;
+	position:absolute;
+}
+
+#davis_station{
+	left:75px;
+	top:75px;
+}
+
+#howard_station{
 	left:75px;
 	top:275px;
-	border-radius:100%;
+}
+
+#davistxt{
+	top:75px;
+	left:200px;
+}
+
+#howardtxt{
+	top:275px;
+	left:200px;
 }
